@@ -133,6 +133,10 @@ function endgame(){
 }
 function newGame(){
     document.getElementById("winmodal").classList.remove("show")
+    moves = 0
+    seconds = 0
+    matches = 0
+    timeRunning = false
     clearInterval(timeInterval)
     startGame()
 
