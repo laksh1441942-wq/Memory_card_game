@@ -63,21 +63,6 @@ h1{
     gap: 10px;
     margin-bottom: 20px;
 }
-@media (max-width: 768px){
-    .game-board{
-        grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
-    }
-}
-@media (max-width: 480px){
-    .game-board{
-        grid-template-columns: repeat(4, 1fr);
-        gap: 6px;
-    }
-    .card-front{
-        font-size: 1.5rem;
-    }
-}
 .card{
     width: 100%;
     border-radius: 20px;
@@ -197,7 +182,7 @@ h1{
 
 @media (max-width:768px){
     .game-board{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
     }
     .h1{
         font-size: 2rem;
@@ -205,14 +190,14 @@ h1{
 }
 @media (max-width:480px){
     .game-board{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         gap: 10px;
     }
     .h1{
         font-size: 1.6em;
     }
     .card-front{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
 }
